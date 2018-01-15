@@ -5,7 +5,8 @@ import SecondTabScreen from './SecondTabScreen';
 import PushedScreen from './PushedScreen';
 
 // register all screens of the app (including internal ones)
-export function registerScreens() {
+export function registerScreens(store: {}, Provider?: {}) {
+  console.log(store);
   Navigation.registerComponent('example.FirstTabScreen', () => FirstTabScreen);
   Navigation.registerComponent('example.SecondTabScreen', () => SecondTabScreen);
   Navigation.registerComponent('example.PushedScreen', () => PushedScreen);

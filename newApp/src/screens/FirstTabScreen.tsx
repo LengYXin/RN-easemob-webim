@@ -11,7 +11,6 @@ import {
   Text,
   View
 } from 'react-native';
-import { Navigation } from 'react-native-navigation';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -22,10 +21,11 @@ const instructions = Platform.select({
 
 export default class App extends Component<{}> {
   render() {
+    console.log(this.props);
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          F
         </Text>
         <Text style={styles.instructions}>
           To get started, edit App.js
