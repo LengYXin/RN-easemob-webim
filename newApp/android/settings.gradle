@@ -1,4 +1,4 @@
-rootProject.name = 'newApp'
+rootProject.name = 'newAppTest'
 
 include ':app'
 include ':react-native-navigation'

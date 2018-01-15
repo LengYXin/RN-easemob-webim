@@ -1,4 +1,4 @@
-package com.newapp;
+package com.newAppTest;
 
 // import com.facebook.react.ReactActivity;
 
@@ -10,7 +10,7 @@ package com.newapp;
 //      */
 //     @Override
 //     protected String getMainComponentName() {
-//         return "newApp";
+//         return "newAppTest";
 //     }
 // }
 
